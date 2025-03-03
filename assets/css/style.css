@@ -38,6 +38,15 @@
     hsl(45, 100%, 71%) 0%, 
     hsla(36, 100%, 69%, 0) 50%
   );
+  .avatar-circle {
+    display: inline-block; /* Ensures the figure behaves like a block */
+    width: 80px; /* Set the width of the container */
+    height: 80px; /* Set the height of the container */
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Ensures the image stays within the circular boundary */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
     hsla(45, 100%, 71%, 0.251) 0%, 
